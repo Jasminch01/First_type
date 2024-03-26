@@ -20,3 +20,9 @@ var printFunc = function (a, b, c) {
     console.log("i have toprint ".concat(a, " and ").concat(b, " ").concat(c));
 };
 printFunc("hello", 10);
+// ==> while function is not return default return type is void
+// --> in this function will return type is nuber
+var addition = function (a, b) {
+    return a + b;
+};
+console.log(addition(2, 6));

@@ -27,3 +27,12 @@ const printFunc = (a : String , b:Number, c: boolean= true) => {
 }
 
 printFunc("hello", 10)
+
+// ==> while function is not return default return type is void
+
+// --> in this function will return type is nuber
+const addition = (a: number , b : number) => {
+     return a + b;
+}
+
+console.log(addition(2, 6))
