@@ -17,3 +17,30 @@ let a : (number | string)[] = [];
 
 a.push("jasmin", 12);
 // a.push({name : "jasmin",}) //it's got error because a array only number or string array
+
+
+//object uinor type
+
+let obj : object;
+
+obj = {
+    name : "jasmin"
+}
+
+obj = [] //it will support because an array type is object
+
+//explecit object type declearation : 
+
+let obj1 : {name : number, age: string};
+
+//obj1 valid type
+obj1 = {
+    name : 10,
+    age : "10"
+}
+
+//invalid type of object because obj1 object name type is number and age type is string
+// obj1 = {
+//     name : "jasmin"
+//     age : 10
+// }
