@@ -3,7 +3,7 @@ var userId;
 var userFirstName;
 var userLastName;
 var isTrue;
-userId = 1001;
+userId = 1001; 
 userFirstName = "user1";
 userLastName = 'kxy';
 isTrue = false;
